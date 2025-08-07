@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSRF Referrer Test</title>
+</head>
+<body>
+  <h1>Referrer Spoof Test Page</h1>
+
+  <!-- Optionally try to spoof Referrer with meta tag -->
+  <meta name="referrer" content="never">
+
+  <iframe 
+    src="https://play.fastpix.io/embed/<MEDIA_ID>" 
+    width="640" 
+    height="360" 
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
